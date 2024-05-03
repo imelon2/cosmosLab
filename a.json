@@ -1,0 +1,44 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/ethermint.evm.v1.MsgEthereumTx",
+        "data": {
+          "@type": "/ethermint.evm.v1.DynamicFeeTx",
+          "chain_id": "4444",
+          "nonce": "1",
+          "gas_tip_cap": "1500000000",
+          "gas_fee_cap": "1500000014",
+          "gas": "21000",
+          "to": "0xa6CFd862Bf10Ac4392f9AC56962aa57b3B5110Cd",
+          "value": "100",
+          "data": null,
+          "accesses": [],
+          "v": null,
+          "r": "3apOaCCqa83POj1tAkt3ua0OTuXxkPwz3/O0egz+tIY=",
+          "s": "aCw02RKaTNN05ecYL5IzJo1p1FaEAgLCInFceZytdog="
+        },
+        "size": 0,
+        "hash": "0x797f144d7968ad042e020b035dc76a4dc6c297bbbf7a0b10eafefd12414daca4",
+        "from": ""
+      }
+    ],
+    "memo": "",
+    "timeout_height": "0",
+    "extension_options": [
+      { "@type": "/ethermint.evm.v1.ExtensionOptionsEthereumTx" }
+    ],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "amount": [{ "denom": "aphoton", "amount": "31500000294000" }],
+      "gas_limit": "21000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": []
+}

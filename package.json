@@ -1,0 +1,30 @@
+{
+  "name": "cosmoslab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/amino": "^0.32.3",
+    "@cosmjs/crypto": "^0.32.3",
+    "@cosmjs/encoding": "^0.32.3",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "@noble/hashes": "^1.4.0",
+    "bech32-buffer": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "i": "^0.3.7",
+    "npm": "^10.5.2",
+    "protobufjs": "^7.2.6",
+    "ripemd160-js": "^2.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
